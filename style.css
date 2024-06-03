@@ -1,0 +1,78 @@
+*{
+ box-sizing: border-box;
+   
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(220, 15%, 55%);
+align-items: center;
+font-size: 15px;
+ padding: 40px;
+ margin-top: 30px;
+ 
+text-align: center;
+}
+.container{
+background-color: white;
+
+width: 400px;
+margin: 20px auto;
+padding: 30px ;
+max-height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+position: relative;
+border-radius: 25px;
+margin-bottom: 20px;
+}
+
+img{
+  
+   border-radius: 20px;
+padding: 0;
+margin: 0;
+   max-width: 100%;
+   height: auto;
+   margin-bottom: 20px;
+}
+h1{
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: hsl(218, 44%, 22%);
+}
+p{
+    color:  hsl(220, 15%, 55%);
+    font-size: 15px;
+    font-weight: bold;
+}
+.attribution a{
+    text-decoration: none;
+    font-size: 15px;
+    color:darkblue;
+    
+}
+.attribution a:hover{
+    cursor: pointer;
+  
+   
+}
+
+/* makeing website responsive */
+@media screen  and (max-width: 375px) {
+   body{
+    padding:0;
+    margin: 0;
+
+   }
+    .container{
+        width: 100vw;
+        height: 100vh;
+        max-width: 100%;
+        padding: 0;
+    }
+
+}
